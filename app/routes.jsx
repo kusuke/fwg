@@ -6,9 +6,8 @@ import RootLayout from './components/templates/Root';
 
 export default () => {
   return (
-    <Route path="/" component={RootLayout}>
-
-      <Route path="top" component={TopContainer} fetchData={fetchMemberData} />
+    <Route component={RootLayout}>
+      <Route path="/" component={TopContainer} fetchData={fetchMemberData} />
     </Route>
   );
 };
