@@ -6,8 +6,10 @@ const css = classNames.bind(styles);
 
 export default function render() {
   return (
-    <header className={css('header')}>
-      header書いてね
+    <header className={css('headerArea')}>
+      <h1>
+        <a href="/" class="siteLogo">FWG</a>
+      </h1>
     </header>
   )
 }

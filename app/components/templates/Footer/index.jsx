@@ -6,8 +6,8 @@ const css = classNames.bind(styles);
 
 export default function render() {
   return (
-    <footer className={css('footer')}>
-      footer書いてね
+    <footer className={css('footerAres')}>
+      <a href="/" class="siteLogo">FWG</a>
     </footer>
   )
 }

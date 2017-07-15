@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import classNames from 'classnames/bind';
+import styles from './css/index.scss';
+const css = classNames.bind(styles);
 
 export default class Top extends Component {
 
@@ -10,7 +13,7 @@ export default class Top extends Component {
       decrement
     } = this.props;
     return (
-      <div>
+      <div className={css('container')}>
         <h2>{counter}</h2>
         <button onClick={() => increment()}> + </button>
         <button onClick={() => decrement()}> - </button>
