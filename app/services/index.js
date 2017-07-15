@@ -1,0 +1,1 @@
+export { default as memberService } from './member';
